@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Meus cards</title>
+</head>
+<body>
+
+    <div class="mudar">
+        <h2><span  class="novos">FLORIANO</span>     <span class="descolar">NASCIMENTO</span></h2>
+    </div>
+    
+   <div class="container">
+
+    <div class="cards cards1">
+            <h2>GUITARRA</h2>
+            <img src="guitarra_nova-sem fundo.png"alt="baixei na net" class="produto">
+            <button>COMPRE</button>   
+    </div>
+
+    <div class="cards  cards2">
+        <h2>VIOLÃO</h2>
+        <img src="violao_novo-sem fundo.png" alt="baixei na net" class="produto">
+        <button>COMPRE</button>   
+</div>
+
+   </div>
+       
+  
+<script>
+    VanillaTilt.init(document.querySelectorAll(".cards"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 0.5   
+	});
+</script>
+</body>
+</html>
